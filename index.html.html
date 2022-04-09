@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUTTON</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            transition: all 0.5s ease-out;
+        }
+        
+        body {
+            background: rgb(35, 32, 32);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .xona1 {
+            display: flex;
+        }
+        
+        .xona2 {
+            display: flex;
+        }
+        
+        .btn {
+            width: 450px;
+            height: 150px;
+            margin: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            font-family: sans-serif;
+        }
+        
+        .button1 {
+            background: #64dc35;
+        }
+        
+        .button1:hover {
+            background: #444;
+            border-left: 10px solid #64dc35;
+            border-right: 10px solid #64dc35;
+        }
+        
+        .button2 {
+            background: #444;
+            /* background-position: center; */
+            /* background-repeat: no-repeat; */
+            /* background-size: 400px 150px; */
+            color: white;
+            border-left: 0px solid #64dc35;
+            border-right: 0px solid #64dc35;
+        }
+        
+        .button2:hover {
+            background: #64dc35;
+            border-left: 10px solid #444;
+            border-right: 10px solid #444;
+        }
+        
+        .button3 {
+            background: #444;
+            border-left: 10px solid #a90d73;
+            border-right: 10px solid #a90d73;
+            color: white;
+        }
+        
+        .button3:hover {
+            border-left: 0px solid #444;
+            border-right: 0px solid #444;
+            background: #a90d73;
+        }
+        
+        .button4 {
+            background: #a90d73;
+            /* background-position: center; */
+            /* background-repeat: no-repeat; */
+            /* background-size: 400px 150px; */
+        }
+        
+        .button4:hover {
+            background: #444;
+            border-left: 10px solid #a90d73;
+            border-right: 10px solid #a90d73;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="xona1">
+            <div class="button1 btn">
+                <p>
+                    Read More
+                </p>
+            </div>
+            <div class="button2 btn">
+                <p>
+                    Read More
+                </p>
+            </div>
+        </div>
+        <div class="xona2">
+            <div class="button3 btn">
+                <p>
+                    Click Here
+                </p>
+            </div>
+            <div class="button4 btn">
+                <p>
+                    Click Here
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
